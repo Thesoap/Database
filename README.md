@@ -10,6 +10,7 @@ sudo docker run -it --rm -v $(pwd):/src -w /src helgecph/pythonruby sh -c "ruby 
 It should also be able to be runned with normal ruby if you got that.
 
 The projekt will open a terminal/CMD windown where you can do 3 things.
+
 "put":
 This command will let you write data to the database/hash. You write the key first and press ENTER and then enter the value for that key. This will save the data to the hash and the database file.
 
